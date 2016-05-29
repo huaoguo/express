@@ -27,7 +27,9 @@ unreleased
     - Fix IPv6-mapped IPv4 validation edge cases
     - IPv4 netmasks must be contingous
     - IPv6 addresses cannot be used as a netmask
-    - deps: ipaddr.js@1.1.1
+  * deps: range-parser@~1.1.0
+    - Fix incorrectly returning -1 when there is at least one valid range
+    - perf: remove internal function
   * deps: vary@~1.1.0
     - Only accept valid field names in the `field` argument
   * perf: use strict equality when possible
